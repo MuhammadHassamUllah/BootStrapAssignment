@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Making Web Page Responsive -->
+    <meta name="viewport" content="width-width-device, initial-scale=1.0">
+    <!-- Latest Compiled and minified css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--JQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Bootstrap Javascript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Adding our own style sheet -->
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+    <!--Adding FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--Introductory Header -->
+
+
+    <header>
+        <!--Added a navigation bar -->
+    
+        <nav class="navbar navbar-default">
+            <div class="container-fulid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand"  href="#">Cafe</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a href="" >ABOUT</p></a></li>
+                        <li role="presentation"><a href="" >SERVICES</a></li>
+                        <li role="presentation"><a href="" >PRICING</a></li>
+                        <li role="presentation"><a href="" >PORTFOLIO</a></li>
+                    </ul>    
+                </div>
+                
+            </div>
+        </nav>
+        <!--Added a jumbotron for company and search bar -->
+        
+        <div class="jumbotron text-center">
+            <h1>Cafe Winchester</h1>
+            <p>Hapiness is a cup of cofee</p>        
+
+            <!--Adding Search Bar and Search Button -->
+            <form class="form-inline" action="">
+                <div class="form-group col-xs-10 col-xs-push-1">
+                    <input type="text" class="form-control input-lg" placeholder="Search" size="50">
+                    <button type="button" class="btn btn-info">Search</button>
+                </div>
+            </form>
+        </div>
+
+
+
+    </header>
+
+    <!--Div of About Company page -->
+    <div class="container-fluid" style="background-color: white;">
+        <div class="row">
+            <div class="col-sm-8" style="background-color:white; padding-bottom: 100px;">  
+                <h2 style="font-weight: bold;margin-top: 95px;margin-left:25px;">ABOUT COMPANY PAGE</h1>
+                <p id="aboutPara">
+                    Cafe co International Holding (café+co) is an international operating corporate group with its headquarters in Vienna.
+                    The company markets its beverage dispensers for hot and cold drinks 
+                    and its self-service vending machines for snacks and sweets in Austria
+                    as well as in middle and east Europe.Since the foundation of the “Delikomat GmbH” in 1972 
+                    the corporate group has targeted the Austrian market. 
+                    The foundation was followed by the acquisition of the “Vendare GmbH” in 1990 
+                    as well as the purchase of the “Top Cup GmbH”, 
+                    which focuses on Office Coffee Service (vendors for smaller sized companies) 
+                    as their main area of operations, in 2000.
+                </p>
+                <p id="aboutPara2">The company café+co, deals with the operation and service of vending machines for hot and cold beverages 
+                    as well as snacks and sweets, focusing on coffee and cacao drinks. 
+                    Aside from selling coffee in standard versions like espresso, black coffee, brown coffee, melange, macchiato 
+                    as well as latte macchiato there are self creations like mocha cappuccino 
+                    or chococcino and coffee variations with special tastes like vanilla, hazelnut or caramel.</p>
+                <button type="button" style="margin-left:25px; margin-top:50px; height:50px; " class="btn btn-primary col-sm-2">Get In Touch</button>
+            </div>
+            <div class="col-sm-3" style="background-color: white;">
+                <i class="fa fa-coffee" style="font-size: 300px;margin-top:150px;color:steelblue;"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

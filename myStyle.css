@@ -1,0 +1,68 @@
+
+#brandLogo{
+
+}
+.jumbotron{
+    background-color: steelblue;
+    margin-top: -20px;
+    height: 700px;
+    padding-top:200px;
+}
+
+.navbar{
+    background-color: steelblue;
+    color: black;
+    border-color:steelblue;
+    border-radius: 0px;
+}
+
+.form-inline .form-group button{
+    width: 100px;
+}
+
+
+.navbar li a {
+    color: white;
+    font-size: 20px;
+   
+    margin-top:10px;
+}
+
+.navbar .nav li a {
+    color: white;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    margin-top:10px;
+}
+#jumboText1{
+    color: white;
+}
+
+
+#navBarItems{
+    
+    color: white;
+    font-size: 20px;
+}
+
+.navbar .navbar-brand{
+    color:black;
+    font-size: 40px;
+    margin-top: 9px;
+}
+
+#aboutPara{
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-left:25px;
+}
+
+#aboutPara2{
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-left:25px;
+}
